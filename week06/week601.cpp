@@ -1,7 +1,8 @@
 #include <iostream>
 #include <stdio.h>
- int main(){
- FILE *fout = fopen("output.txt","w+");
- fprintf(fout,"Hello World\n");
+int main()
+{
+    FILE *fout = fopen("output.txt","w+");
+    fprintf(fout,"Hello World\n");
 
- }
+}
